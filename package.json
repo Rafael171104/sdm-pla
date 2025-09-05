@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rafael171104/sdm-pla/issues"
   },
-  "homepage": "https://github.com/Rafael171104/sdm-pla#readme"
+  "homepage": "https://github.com/Rafael171104/sdm-pla#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
