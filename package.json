@@ -1,0 +1,19 @@
+{
+  "name": "sdm-pla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "colecoes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafael171104/sdm-pla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafael171104/sdm-pla/issues"
+  },
+  "homepage": "https://github.com/Rafael171104/sdm-pla#readme"
+}
