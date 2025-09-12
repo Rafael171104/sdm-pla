@@ -2,20 +2,21 @@
   "name": "sdm-pla",
   "version": "1.0.0",
   "description": "",
-  "main": "colecoes.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rafael171104/sdm-pla.git"
+    "url": "git+https://github.com/Danilo-Miguel/sdm-pla.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rafael171104/sdm-pla/issues"
+    "url": "https://github.com/Danilo-Miguel/sdm-pla/issues"
   },
-  "homepage": "https://github.com/Rafael171104/sdm-pla#readme",
+  "homepage": "https://github.com/Danilo-Miguel/sdm-pla#readme",
   "dependencies": {
     "express": "^5.1.0"
   }
