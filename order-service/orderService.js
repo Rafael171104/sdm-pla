@@ -24,7 +24,7 @@ moogose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
     const Order = moogose.model('Order', orderSchema);
 
-    app.post('/pedideos', async (req, res) => {
+    app.post('/pedidos', async (req, res) => {
         try{
             const {userId, items = [], total = 0} = req.body;
             if(!userId)
@@ -32,7 +32,7 @@ moogose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
                 const order= new Order({userId, items, total});
                 const saved = await order.save();
-                console.log(`  Pedido criado: ${saved_id} para user ${userId} `);
+                console.log(`  Pedido criado: ${saved._id} para user ${userId} `);
                 res.status(201).json(order);
                 } catch (error) {
                     console.error('Erro ao criar pedido:', error);
